@@ -1,0 +1,42 @@
+date_utc=2026-11-26T19:15:40.9104600Z
+upstream_sha=9817ef6aa6458dbf6ec9fd3818940a0c16c19898
+checked_out=9817ef6aa6458dbf6ec9fd3818940a0c16c19898
+run=45882236329 attempt=1
+ImageOS=win25-vs2026 ImageVersion=20261116.315.1 RUNNER_OS=Windows RUNNER_ARCH=X64
+os=Microsoft Windows NT 10.0.26100.0
+culture=en-US uiculture=en-US acp=1252
+RUSTFLAGS=[] CARGO_TARGET_DIR=[] CARGO_HOME=[]
+--- rustc -Vv
+rustc 1.100.0 (0ef1bc386 2026-11-09)
+binary: rustc
+commit-hash: 0ef1bc386059596dada8fb65b50425aab2ea637a
+commit-date: 2026-11-09
+host: x86_64-pc-windows-msvc
+release: 1.100.0
+LLVM version: 23.1.5
+--- cargo -V
+cargo 1.100.0 (3acc79c0c 2026-11-05)
+--- cargo clippy -V
+clippy 0.1.100 (0ef1bc3860 2026-11-09)
+--- rustup show
+Default host: x86_64-pc-windows-msvc
+rustup home:  C:\Users\runneradmin\.rustup
+
+installed toolchains
+--------------------
+stable-x86_64-pc-windows-msvc (default)
+1.100.0-x86_64-pc-windows-msvc (active)
+
+active toolchain
+----------------
+name: 1.100.0-x86_64-pc-windows-msvc
+active because: overridden by 'D:\a\codetrial\codetrial\rust-toolchain.toml'
+installed targets:
+  x86_64-pc-windows-msvc
+--- git --version
+git version 2.56.1.windows.1
+--- MSVC (vswhere)
+18.12.0
+18.12.12405.243
+--- sh on PATH
+C:\Program Files\Git\bin\sh.exe

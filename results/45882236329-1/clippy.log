@@ -1,0 +1,298 @@
+   Compiling cfg-if v1.0.5
+   Compiling memchr v2.8.3
+    Checking windows-link v0.2.1
+   Compiling getrandom v0.4.3
+    Checking bytes v1.12.1
+   Compiling jobserver v0.1.35
+   Compiling cc v1.9.0
+   Compiling windows_x86_64_msvc v0.52.6
+    Checking pin-project-lite v0.2.17
+   Compiling hashbrown v0.17.1
+   Compiling equivalent v1.0.3
+   Compiling windows-targets v0.52.6
+    Checking windows-sys v0.61.2
+   Compiling windows-sys v0.59.0
+   Compiling indexmap v2.14.2
+    Checking futures-core v0.3.34
+   Compiling once_cell v1.21.4
+   Compiling aho-corasick v1.1.5
+    Checking smallvec v1.16.3
+    Checking itoa v1.0.18
+    Checking serde_core v1.0.229
+   Compiling regex-automata v0.4.18
+    Checking mio v1.2.4
+    Checking socket2 v0.6.5
+    Checking tokio v1.54.1
+   Compiling anyhow v1.0.104
+    Checking zerofrom v0.1.8
+    Checking stable_deref_trait v1.2.1
+   Compiling log v0.4.35
+   Compiling yoke v0.8.3
+   Compiling ring v0.17.14
+    Checking futures-sink v0.3.34
+    Checking serde v1.0.229
+    Checking zerovec v0.11.8
+   Compiling regex v1.13.1
+    Checking http v1.5.0
+    Checking futures-io v0.3.34
+   Compiling prost-derive v0.14.4
+   Compiling tinystr v0.8.4
+    Checking percent-encoding v2.3.2
+   Compiling litemap v0.8.3
+   Compiling writeable v0.6.4
+   Compiling icu_locale_core v2.3.0
+   Compiling potential_utf v0.1.6
+    Checking zerotrie v0.2.5
+   Compiling utf8_iter v1.0.4
+    Checking typenum v1.20.1
+    Checking zeroize v1.9.1
+    Checking slab v0.4.12
+    Checking futures-task v0.3.34
+    Checking icu_collections v2.3.0
+    Checking futures-util v0.3.34
+    Checking rustls-pki-types v1.15.1
+    Checking hybrid-array v0.4.15
+   Compiling icu_provider v2.3.1
+    Checking http-body v1.1.0
+   Compiling winapi-util v0.1.11
+    Checking getrandom v0.2.17
+    Checking untrusted v0.9.0
+   Compiling icu_normalizer_data v2.3.0
+   Compiling icu_properties_data v2.3.0
+    Checking cmov v0.5.4
+    Checking tower-service v0.3.3
+   Compiling rustls v0.23.46
+    Checking rustls-webpki v0.103.16
+   Compiling petgraph v0.8.3
+   Compiling prost v0.14.4
+   Compiling prost-types v0.14.4
+    Checking ctutils v0.4.5
+   Compiling tempfile v3.27.0
+    Checking icu_properties v2.3.0
+    Checking icu_normalizer v2.3.0
+    Checking block-buffer v0.12.1
+    Checking crypto-common v0.2.2
+    Checking form_urlencoded v1.2.3
+    Checking httparse v1.10.1
+   Compiling try-lock v0.2.5
+    Checking subtle v2.6.1
+    Checking cpufeatures v0.3.1
+    Checking rand_core v0.10.1
+    Checking base64 v0.22.1
+    Checking const-oid v0.10.2
+    Checking digest v0.11.3
+   Compiling prost-build v0.14.4
+   Compiling want v0.3.2
+    Checking thiserror v2.0.21
+   Compiling idna_adapter v1.2.2
+   Compiling pbjson-build v0.9.0
+   Compiling tracing-core v0.1.36
+    Checking adler2 v2.0.1
+    Checking simd-adler32 v0.3.10
+   Compiling atomic-waker v1.1.2
+    Checking tower-layer v0.3.3
+    Checking miniz_oxide v0.9.1
+   Compiling hyper v1.12.0
+   Compiling tracing v0.1.44
+    Checking num-traits v0.2.19
+    Checking idna v1.1.0
+    Checking crc32fast v1.5.3
+   Compiling futures-channel v0.3.34
+   Compiling schannel v0.1.30
+   Compiling pbjson-types v0.9.0
+   Compiling sync_wrapper v1.0.2
+    Checking zmij v1.0.23
+   Compiling libc v0.2.191
+   Compiling base64 v0.23.1
+    Checking httpdate v1.0.3
+   Compiling ipnet v2.12.2
+   Compiling hyper-util v0.1.21
+   Compiling tower v0.5.3
+    Checking serde_json v1.0.154
+   Compiling rustls-native-certs v0.8.5
+    Checking flate2 v1.1.10
+   Compiling tokio-rustls v0.26.6
+   Compiling url v2.5.9
+    Checking chrono v0.4.45
+    Checking pbjson v0.9.0
+    Checking tokio-util v0.7.20
+   Compiling link-cplusplus v1.0.12
+   Compiling bitflags v2.13.2
+   Compiling ryu v1.0.23
+   Compiling serde_urlencoded v0.7.1
+   Compiling tower-http v0.6.11
+   Compiling hyper-rustls v0.27.10
+   Compiling http-body-util v0.1.5
+   Compiling termcolor v1.4.1
+    Checking webpki-roots v1.0.12
+    Checking scopeguard v1.2.0
+    Checking livekit-protocol v0.9.0
+    Checking lock_api v0.4.14
+   Compiling cxx v1.0.205
+   Compiling zip v9.0.5
+   Compiling codespan-reporting v0.13.1
+   Compiling reqwest v0.12.28
+    Checking getrandom v0.3.4
+    Checking zerocopy v0.8.63
+    Checking parking_lot_core v0.9.12
+    Checking chacha20 v0.10.2
+    Checking tree-sitter-language v0.1.9
+   Compiling semver v1.0.28
+    Checking compression-core v0.4.34
+    Checking regex-syntax v0.8.11
+    Checking compression-codecs v0.4.46
+   Compiling webrtc-sys-build v0.3.21
+    Checking rand v0.10.3
+    Checking parking_lot v0.12.5
+    Checking ppv-lite86 v0.2.21
+    Checking rand_core v0.9.5
+   Compiling cxx-build v1.0.205
+    Checking tokio-stream v0.1.19
+    Checking sha1 v0.11.0
+    Checking data-encoding v2.11.1
+    Checking tungstenite v0.30.0
+    Checking livekit-common v0.2.0
+    Checking from_variants v1.0.2
+    Checking rand_chacha v0.9.0
+    Checking async-compression v0.4.51
+   Compiling same-file v1.0.6
+   Compiling cxxbridge-macro v1.0.205
+   Compiling bstr v1.13.1
+    Checking foldhash v0.2.0
+   Compiling libsqlite3-sys v0.40.0
+   Compiling globset v0.4.20
+   Compiling sha2 v0.11.1
+   Compiling tree-sitter v0.27.2
+   Compiling walkdir v2.5.0
+    Checking tokio-tungstenite v0.30.0 (D:\a\codetrial\codetrial\vendor\tokio-tungstenite)
+    Checking uuid v1.28.0
+    Checking bmrng v0.5.2
+   Compiling mime v0.3.17
+    Checking base64 v0.21.7
+    Checking livekit-net v0.2.0 (D:\a\codetrial\codetrial\vendor\livekit-net)
+   Compiling mime_guess v2.0.5
+    Checking livekit-data-stream v0.3.0
+   Compiling rust-embed-utils v8.14.0
+    Checking rand v0.9.5
+    Checking device-info v0.1.1
+    Checking os_info v3.15.0
+    Checking livekit-region v0.1.1
+   Compiling tree-sitter-python v0.25.0
+   Compiling tree-sitter-c v0.24.2
+   Compiling tree-sitter-javascript v0.25.0
+   Compiling tree-sitter-java v0.23.5
+   Compiling tree-sitter-cpp v0.23.4
+    Checking lazy_static v1.5.1
+   Compiling webrtc-sys v0.3.55
+    Checking rtrb v0.3.5
+    Checking axum-core v0.5.6
+    Checking livekit-rpc v0.4.0
+    Checking livekit-datatrack v0.3.0
+    Checking thiserror v1.0.69
+    Checking livekit-signaling v0.3.0
+   Compiling rust-embed-impl v8.14.0
+    Checking winapi v0.3.9
+    Checking rustls-platform-verifier v0.7.1
+    Checking serde_path_to_error v0.1.20
+    Checking libloading v0.8.9
+   Compiling codetrial v0.1.0 (D:\a\codetrial\codetrial)
+    Checking streaming-iterator v0.1.9
+    Checking fallible-streaming-iterator v0.1.9
+    Checking bitflags v1.3.2
+    Checking matchit v0.8.4
+    Checking fallible-iterator v0.3.0
+    Checking axum v0.8.9
+    Checking rust-embed v8.14.0
+    Checking windows-permissions v0.2.4
+    Checking reqwest v0.13.5
+    Checking tower-http v0.7.1
+    Checking jpeg-encoder v0.7.1
+    Checking ephyra v0.0.1
+    Checking hmac v0.13.0
+   Compiling hook-check v0.0.0 (D:\a\codetrial\codetrial\scripts\hook-check)
+    Checking rusqlite v0.43.0
+    Checking libwebrtc v0.4.2
+    Checking livekit v0.12.0
+error[E0433]: cannot find `unix` in `os`
+   --> src\tasks\..\..\tests\unit\tasks\defense.rs:328:14
+    |
+328 |     std::os::unix::fs::PermissionsExt::set_mode(&mut permissions, 0o755);
+    |              ^^^^ could not find `unix` in `os`
+    |
+note: found an item that was configured out
+   --> /rustc/0ef1bc386059596dada8fb65b50425aab2ea637a/library/std\src\os\mod.rs:49:4
+    |
+    = note: the item is gated behind the `unix` feature
+
+error[E0433]: cannot find `unix` in `os`
+   --> src\web\..\..\tests\unit\web\defense.rs:225:14
+    |
+225 |     std::os::unix::fs::PermissionsExt::set_mode(&mut permissions, 0o755);
+    |              ^^^^ could not find `unix` in `os`
+    |
+note: found an item that was configured out
+   --> /rustc/0ef1bc386059596dada8fb65b50425aab2ea637a/library/std\src\os\mod.rs:49:4
+    |
+    = note: the item is gated behind the `unix` feature
+
+error: unused imports: `ReportAttemptFailure`, `ReportAttemptObserver`, and `report_attempt_failure`
+  --> src\gemini.rs:81:9
+   |
+81 |         ReportAttemptFailure, ReportAttemptObserver, ReportAttempts, ReportCalls, ReportOutcome,
+   |         ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^
+...
+84 |         is_retryable, parse_report_text, repair_prompt, report_attempt_failure, report_attempts,
+   |                                                         ^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `-D unused-imports` implied by `-D warnings`
+   = help: to override `-D warnings` add `#[allow(unused_imports)]`
+
+error: unused import: `super::tests::executable`
+ --> src\tasks\..\..\tests\unit\tasks\defense_runner.rs:6:5
+  |
+6 | use super::tests::executable;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^
+
+error: unused imports: `HAZARD` and `executable`
+ --> src\tasks\..\..\tests\unit\tasks\defense_attempt.rs:8:20
+  |
+8 | use super::tests::{HAZARD, Repo, config, executable, fake_make, student_repo, trace as obs_trace};
+  |                    ^^^^^^                ^^^^^^^^^^
+
+error: unused imports: `Value` and `json`
+ --> src\tasks\..\..\tests\unit\tasks\defense_hints.rs:4:18
+  |
+4 | use serde_json::{Value, json};
+  |                  ^^^^^  ^^^^
+
+error: unused imports: `config` and `student_repo`
+ --> src\tasks\..\..\tests\unit\tasks\defense_hints.rs:6:20
+  |
+6 | use super::tests::{config, student_repo};
+  |                    ^^^^^^  ^^^^^^^^^^^^
+
+error: unused import: `super::*`
+ --> src\tasks\..\..\tests\unit\tasks\defense_hints.rs:7:5
+  |
+7 | use super::*;
+  |     ^^^^^^^^
+
+error: unused imports: `Attempt`, `Checkout`, `Config`, `Tools`, and `plan`
+  --> src\web\..\..\tests\unit\web\defense.rs:16:29
+   |
+16 | use crate::tasks::defense::{Attempt, Checkout, Config, Slot, TASK_ID, Tools, plan};
+   |                             ^^^^^^^  ^^^^^^^^  ^^^^^^                 ^^^^^  ^^^^
+
+error: variable does not need to be mutable
+  --> src\..\tests\unit\dispatch_http.rs:82:9
+   |
+82 |     let mut directory = std::fs::DirBuilder::new();
+   |         ----^^^^^^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: `-D unused-mut` implied by `-D warnings`
+   = help: to override `-D warnings` add `#[allow(unused_mut)]`
+
+For more information about this error, try `rustc --explain E0433`.
+error: could not compile `codetrial` (lib test) due to 10 previous errors

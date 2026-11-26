@@ -1,0 +1,610 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded try-lock v0.2.5
+  Downloaded multimap v0.10.1
+  Downloaded os_info v3.15.0
+  Downloaded pbjson-build v0.9.0
+  Downloaded parking_lot v0.12.5
+  Downloaded parking_lot_core v0.9.12
+  Downloaded pkg-config v0.3.34
+  Downloaded quinn-udp v0.5.16
+  Downloaded quote v1.0.47
+  Downloaded once_cell v1.21.4
+  Downloaded potential_utf v0.1.6
+  Downloaded prettyplease v0.2.37
+  Downloaded proc-macro2 v1.0.107
+  Downloaded prost v0.14.4
+  Downloaded prost-types v0.14.4
+  Downloaded quinn v0.11.12
+  Downloaded serde v1.0.229
+  Downloaded sync_wrapper v1.0.2
+  Downloaded tower-layer v0.3.3
+  Downloaded tower-service v0.3.3
+  Downloaded utf8_iter v1.0.4
+  Downloaded adler2 v2.0.1
+  Downloaded chacha20 v0.10.2
+  Downloaded compression-codecs v0.4.46
+  Downloaded compression-core v0.4.34
+  Downloaded num-traits v0.2.19
+  Downloaded pbjson v0.9.0
+  Downloaded pbjson-types v0.9.0
+  Downloaded petgraph v0.8.3
+  Downloaded pin-project-lite v0.2.17
+  Downloaded ppv-lite86 v0.2.21
+  Downloaded prost-build v0.14.4
+  Downloaded prost-derive v0.14.4
+  Downloaded quinn-proto v0.11.19
+  Downloaded rand v0.9.5
+  Downloaded regex v1.13.1
+  Downloaded rustls-native-certs v0.8.5
+  Downloaded semver v1.0.28
+  Downloaded cmov v0.5.4
+  Downloaded codespan-reporting v0.13.1
+  Downloaded const-oid v0.10.2
+  Downloaded cpufeatures v0.3.1
+  Downloaded crc32fast v1.5.3
+  Downloaded crypto-common v0.2.2
+  Downloaded cxx v1.0.205
+  Downloaded cxxbridge-flags v1.0.205
+  Downloaded darling_macro v0.14.4
+  Downloaded either v1.19.0
+  Downloaded ephyra-macros v0.0.1
+  Downloaded percent-encoding v2.3.2
+  Downloaded winapi-util v0.1.11
+  Downloaded windows-link v0.2.1
+  Downloaded block-buffer v0.12.1
+  Downloaded cxxbridge-macro v1.0.205
+  Downloaded ctutils v0.4.5
+  Downloaded fallible-streaming-iterator v0.1.9
+  Downloaded fnv v1.0.7
+  Downloaded rand_pcg v0.10.2
+  Downloaded subtle v2.6.1
+  Downloaded form_urlencoded v1.2.3
+  Downloaded from_variants_impl v1.0.2
+  Downloaded rust-embed-impl v8.14.0
+  Downloaded synstructure v0.14.0
+  Downloaded digest v0.11.3
+  Downloaded displaydoc v0.2.7
+  Downloaded fallible-iterator v0.3.0
+  Downloaded strsim v0.10.0
+  Downloaded tokio-macros v2.7.2
+  Downloaded equivalent v1.0.3
+  Downloaded from_variants v1.0.2
+  Downloaded futures-sink v0.3.34
+  Downloaded futures-task v0.3.34
+  Downloaded rustc-hash v2.1.3
+  Downloaded stable_deref_trait v1.2.1
+  Downloaded untrusted v0.9.0
+  Downloaded atomic-waker v1.1.2
+  Downloaded cfg_aliases v0.2.2
+  Downloaded zerofrom v0.1.8
+  Downloaded cfg-if v1.0.5
+  Downloaded rust-embed-utils v8.14.0
+  Downloaded scopeguard v1.2.0
+  Downloaded tree-sitter-language v0.1.9
+  Downloaded zerofrom-derive v0.1.8
+  Downloaded bmrng v0.5.2
+  Downloaded device-info v0.1.1
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded tokio-rustls v0.26.6
+  Downloaded want v0.3.2
+  Downloaded http-body v1.1.0
+  Downloaded ryu v1.0.23
+  Downloaded shlex v2.0.1
+  Downloaded slab v0.4.12
+  Downloaded termcolor v1.4.1
+  Downloaded fs2 v0.4.3
+  Downloaded httpdate v1.0.3
+  Downloaded livekit-common v0.2.0
+  Downloaded same-file v1.0.6
+  Downloaded scratch v1.0.9
+  Downloaded windows-targets v0.52.6
+  Downloaded yoke-derive v0.8.4
+  Downloaded lazy_static v1.5.1
+  Downloaded livekit-region v0.1.1
+  Downloaded sha1 v0.11.0
+  Downloaded data-encoding v2.11.1
+  Downloaded find-msvc-tools v0.1.15
+  Downloaded fixedbitset v0.5.7
+  Downloaded link-cplusplus v1.0.12
+  Downloaded rand_core v0.10.1
+  Downloaded serde_path_to_error v0.1.20
+  Downloaded sha2 v0.11.1
+  Downloaded tempfile v3.27.0
+  Downloaded walkdir v2.5.0
+  Downloaded zeroize v1.9.1
+  Downloaded zerovec-derive v0.11.6
+  Downloaded darling v0.14.4
+  Downloaded foldhash v0.1.5
+  Downloaded foldhash v0.2.0
+  Downloaded futures-core v0.3.34
+  Downloaded futures-io v0.3.34
+  Downloaded http-body-util v0.1.5
+  Downloaded ident_case v1.0.1
+  Downloaded idna_adapter v1.2.2
+  Downloaded itoa v1.0.18
+  Downloaded libloading v0.8.9
+  Downloaded rand_chacha v0.9.0
+  Downloaded rand_core v0.9.5
+  Downloaded rtrb v0.3.5
+  Downloaded rustls-pki-types v1.15.1
+  Downloaded rustls-platform-verifier v0.7.1
+  Downloaded schannel v0.1.30
+  Downloaded serde_core v1.0.229
+  Downloaded serde_derive v1.0.229
+  Downloaded streaming-iterator v0.1.9
+  Downloaded thiserror-impl v2.0.21
+  Downloaded tinystr v0.8.4
+  Downloaded unicase v2.10.0
+  Downloaded zmij v1.0.23
+  Downloaded axum-core v0.5.6
+  Downloaded bitflags v1.3.2
+  Downloaded cxx-build v1.0.205
+  Downloaded darling_core v0.14.4
+  Downloaded fastrand v2.5.0
+  Downloaded futures-channel v0.3.34
+  Downloaded getrandom v0.2.17
+  Downloaded globset v0.4.20
+  Downloaded hmac v0.13.0
+  Downloaded httparse v1.10.1
+  Downloaded icu_provider v2.3.1
+  Downloaded jobserver v0.1.35
+  Downloaded litemap v0.8.3
+  Downloaded livekit-data-stream v0.3.0
+  Downloaded livekit-datatrack v0.3.0
+  Downloaded rand v0.10.3
+  Downloaded rustls-webpki v0.103.16
+  Downloaded simd-adler32 v0.3.10
+  Downloaded socket2 v0.6.5
+  Downloaded thiserror v1.0.69
+  Downloaded thiserror v2.0.21
+  Downloaded thiserror-impl v1.0.69
+  Downloaded tokio-stream v0.1.19
+  Downloaded webrtc-sys-build v0.3.21
+  Downloaded anyhow v1.0.104
+  Downloaded autocfg v1.5.1
+  Downloaded flate2 v1.1.10
+  Downloaded getrandom v0.3.4
+  Downloaded getrandom v0.4.3
+  Downloaded icu_locale_core v2.3.0
+  Downloaded ipnet v2.12.2
+  Downloaded libwebrtc v0.4.2
+  Downloaded miniz_oxide v0.9.1
+  Downloaded serde_json v1.0.154
+  Downloaded smallvec v1.16.3
+  Downloaded tinyvec v1.13.3
+  Downloaded unicode-ident v1.0.27
+  Downloaded windows-permissions v0.2.4
+  Downloaded writeable v0.6.4
+  Downloaded yoke v0.8.3
+  Downloaded async-trait v0.1.92
+  Downloaded http v1.5.0
+  Downloaded icu_collections v2.3.0
+  Downloaded icu_normalizer_data v2.3.0
+  Downloaded reqwest v0.12.28
+  Downloaded bitflags v2.13.2
+  Downloaded jpeg-encoder v0.7.1
+  Downloaded reqwest v0.13.5
+  Downloaded rusqlite v0.43.0
+  Downloaded tracing-core v0.1.36
+  Downloaded tungstenite v0.30.0
+  Downloaded ephyra v0.0.1
+  Downloaded futures-util v0.3.34
+  Downloaded hashbrown v0.15.5
+  Downloaded hashbrown v0.17.1
+  Downloaded hyper v1.12.0
+  Downloaded icu_properties_data v2.3.0
+  Downloaded uuid v1.28.0
+  Downloaded bytes v1.12.1
+  Downloaded chrono v0.4.45
+  Downloaded url v2.5.9
+  Downloaded zerotrie v0.2.5
+  Downloaded async-compression v0.4.51
+  Downloaded base64 v0.21.7
+  Downloaded base64 v0.22.1
+  Downloaded base64 v0.23.1
+  Downloaded livekit v0.12.0
+  Downloaded livekit-signaling v0.3.0
+  Downloaded regex-syntax v0.8.11
+  Downloaded rustls v0.23.46
+  Downloaded typenum v1.20.1
+  Downloaded indexmap v2.14.2
+  Downloaded tree-sitter-javascript v0.25.0
+  Downloaded typed-path v0.12.4
+  Downloaded memchr v2.8.3
+  Downloaded tower v0.5.3
+  Downloaded cc v1.9.0
+  Downloaded zerovec v0.11.8
+  Downloaded icu_normalizer v2.3.0
+  Downloaded idna v1.1.0
+  Downloaded regex-automata v0.4.18
+  Downloaded tokio-util v0.7.20
+  Downloaded tower-http v0.6.11
+  Downloaded tree-sitter-java v0.23.5
+  Downloaded tree-sitter-python v0.25.0
+  Downloaded zip v9.0.5
+  Downloaded itertools v0.14.0
+  Downloaded rust-embed v8.14.0
+  Downloaded tower-http v0.7.1
+  Downloaded aho-corasick v1.1.5
+  Downloaded webpki-roots v1.0.12
+  Downloaded axum v0.8.9
+  Downloaded heck v0.5.0
+  Downloaded hyper-rustls v0.27.10
+  Downloaded lru-slab v0.1.3
+  Downloaded syn v1.0.109
+  Downloaded zlib-rs v0.6.8
+  Downloaded glob v0.3.4
+  Downloaded hybrid-array v0.4.15
+  Downloaded livekit-rpc v0.4.0
+  Downloaded mime v0.3.17
+  Downloaded mime_guess v2.0.5
+  Downloaded tree-sitter v0.27.2
+  Downloaded tree-sitter-c v0.24.2
+  Downloaded lock_api v0.4.14
+  Downloaded log v0.4.35
+  Downloaded matchit v0.8.4
+  Downloaded unicode-width v0.2.2
+  Downloaded vcpkg v0.2.15
+  Downloaded hyper-util v0.1.21
+  Downloaded syn v2.0.119
+  Downloaded libc v0.2.191
+  Downloaded syn v3.0.9
+  Downloaded mio v1.2.4
+  Downloaded zerocopy v0.8.63
+  Downloaded bstr v1.13.1
+  Downloaded tracing v0.1.44
+  Downloaded ring v0.17.14
+  Downloaded webrtc-sys v0.3.55
+  Downloaded icu_properties v2.3.0
+  Downloaded windows_x86_64_msvc v0.52.6
+  Downloaded tree-sitter-cpp v0.23.4
+  Downloaded tokio v1.54.1
+  Downloaded winapi v0.3.9
+  Downloaded livekit-protocol v0.9.0
+  Downloaded windows-sys v0.59.0
+  Downloaded windows-sys v0.61.2
+  Downloaded libsqlite3-sys v0.40.0
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.27
+   Compiling quote v1.0.47
+   Compiling cfg-if v1.0.5
+   Compiling getrandom v0.4.3
+   Compiling shlex v2.0.1
+   Compiling find-msvc-tools v0.1.15
+   Compiling memchr v2.8.3
+   Compiling jobserver v0.1.35
+   Compiling cc v1.9.0
+   Compiling syn v3.0.9
+   Compiling windows-link v0.2.1
+   Compiling bytes v1.12.1
+   Compiling pin-project-lite v0.2.17
+   Compiling itoa v1.0.18
+   Compiling futures-core v0.3.34
+   Compiling windows_x86_64_msvc v0.52.6
+   Compiling once_cell v1.21.4
+   Compiling windows-targets v0.52.6
+   Compiling log v0.4.35
+   Compiling smallvec v1.16.3
+   Compiling stable_deref_trait v1.2.1
+   Compiling aho-corasick v1.1.5
+   Compiling hashbrown v0.17.1
+   Compiling futures-io v0.3.34
+   Compiling equivalent v1.0.3
+   Compiling indexmap v2.14.2
+   Compiling synstructure v0.14.0
+   Compiling ring v0.17.14
+   Compiling http v1.5.0
+   Compiling windows-sys v0.61.2
+   Compiling windows-sys v0.59.0
+   Compiling slab v0.4.12
+   Compiling percent-encoding v2.3.2
+   Compiling futures-task v0.3.34
+   Compiling zeroize v1.9.1
+   Compiling rustls-pki-types v1.15.1
+   Compiling mio v1.2.4
+   Compiling socket2 v0.6.5
+   Compiling http-body v1.1.0
+   Compiling serde_core v1.0.229
+   Compiling getrandom v0.2.17
+   Compiling litemap v0.8.3
+   Compiling anyhow v1.0.104
+   Compiling tower-service v0.3.3
+   Compiling writeable v0.6.4
+   Compiling regex-syntax v0.8.11
+   Compiling untrusted v0.9.0
+   Compiling httparse v1.10.1
+   Compiling regex-automata v0.4.18
+   Compiling icu_properties_data v2.3.0
+   Compiling utf8_iter v1.0.4
+   Compiling icu_normalizer_data v2.3.0
+   Compiling rustls-webpki v0.103.16
+   Compiling syn v2.0.119
+   Compiling subtle v2.6.1
+   Compiling serde v1.0.229
+   Compiling form_urlencoded v1.2.3
+   Compiling try-lock v0.2.5
+   Compiling futures-sink v0.3.34
+   Compiling want v0.3.2
+   Compiling atomic-waker v1.1.2
+   Compiling typenum v1.20.1
+   Compiling libc v0.2.191
+   Compiling tower-layer v0.3.3
+   Compiling hybrid-array v0.4.15
+   Compiling tracing-core v0.1.36
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling zerovec-derive v0.11.6
+   Compiling displaydoc v0.2.7
+   Compiling tokio-macros v2.7.2
+   Compiling serde_derive v1.0.229
+   Compiling zerofrom v0.1.8
+   Compiling yoke v0.8.3
+   Compiling zerovec v0.11.8
+   Compiling tinystr v0.8.4
+   Compiling icu_locale_core v2.3.0
+   Compiling potential_utf v0.1.6
+   Compiling zerotrie v0.2.5
+   Compiling icu_provider v2.3.1
+   Compiling icu_collections v2.3.0
+   Compiling sync_wrapper v1.0.2
+   Compiling base64 v0.22.1
+   Compiling icu_properties v2.3.0
+   Compiling icu_normalizer v2.3.0
+   Compiling tokio v1.54.1
+   Compiling idna_adapter v1.2.2
+   Compiling idna v1.1.0
+   Compiling tracing v0.1.44
+   Compiling regex v1.13.1
+   Compiling either v1.19.0
+   Compiling ipnet v2.12.2
+   Compiling base64 v0.23.1
+   Compiling zmij v1.0.23
+   Compiling itertools v0.14.0
+   Compiling url v2.5.9
+   Compiling crypto-common v0.2.2
+   Compiling block-buffer v0.12.1
+   Compiling const-oid v0.10.2
+   Compiling bitflags v2.13.2
+   Compiling tree-sitter-language v0.1.9
+   Compiling prost-derive v0.14.4
+   Compiling ryu v1.0.23
+   Compiling cpufeatures v0.3.1
+   Compiling futures-util v0.3.34
+   Compiling http-body-util v0.1.5
+   Compiling winapi-util v0.1.11
+   Compiling prettyplease v0.2.37
+   Compiling foldhash v0.1.5
+   Compiling heck v0.5.0
+   Compiling hashbrown v0.15.5
+   Compiling fixedbitset v0.5.7
+   Compiling autocfg v1.5.1
+   Compiling cmov v0.5.4
+   Compiling thiserror v2.0.21
+   Compiling rustls v0.23.46
+   Compiling fastrand v2.5.0
+   Compiling num-traits v0.2.19
+   Compiling tempfile v3.27.0
+   Compiling ctutils v0.4.5
+   Compiling petgraph v0.8.3
+   Compiling prost v0.14.4
+   Compiling thiserror-impl v2.0.21
+   Compiling prost-types v0.14.4
+   Compiling syn v1.0.109
+   Compiling rand_core v0.10.1
+   Compiling multimap v0.10.1
+   Compiling crc32fast v1.5.3
+   Compiling prost-build v0.14.4
+   Compiling pbjson-build v0.9.0
+   Compiling digest v0.11.3
+   Compiling serde_json v1.0.154
+   Compiling simd-adler32 v0.3.10
+   Compiling adler2 v2.0.1
+   Compiling miniz_oxide v0.9.1
+   Compiling pbjson-types v0.9.0
+   Compiling futures-channel v0.3.34
+   Compiling hyper v1.12.0
+   Compiling schannel v0.1.30
+   Compiling winapi v0.3.9
+   Compiling strsim v0.10.0
+   Compiling pkg-config v0.3.34
+   Compiling ident_case v1.0.1
+   Compiling httpdate v1.0.3
+   Compiling scratch v1.0.9
+   Compiling fnv v1.0.7
+   Compiling darling_core v0.14.4
+   Compiling rustls-native-certs v0.8.5
+   Compiling tokio-rustls v0.26.6
+   Compiling hyper-util v0.1.21
+   Compiling flate2 v1.1.10
+   Compiling chrono v0.4.45
+   Compiling tower v0.5.3
+   Compiling pbjson v0.9.0
+   Compiling tokio-util v0.7.20
+   Compiling link-cplusplus v1.0.12
+   Compiling parking_lot_core v0.9.12
+   Compiling getrandom v0.3.4
+   Compiling zerocopy v0.8.63
+   Compiling zlib-rs v0.6.8
+   Compiling darling_macro v0.14.4
+   Compiling tower-http v0.6.11
+   Compiling serde_urlencoded v0.7.1
+   Compiling hyper-rustls v0.27.10
+   Compiling termcolor v1.4.1
+   Compiling webpki-roots v1.0.12
+   Compiling cxxbridge-flags v1.0.205
+   Compiling semver v1.0.28
+   Compiling unicode-width v0.2.2
+   Compiling typed-path v0.12.4
+   Compiling scopeguard v1.2.0
+   Compiling lock_api v0.4.14
+   Compiling codespan-reporting v0.13.1
+   Compiling fs2 v0.4.3
+   Compiling cxx v1.0.205
+   Compiling zip v9.0.5
+   Compiling livekit-protocol v0.9.0
+   Compiling darling v0.14.4
+   Compiling reqwest v0.12.28
+   Compiling chacha20 v0.10.2
+   Compiling bstr v1.13.1
+   Compiling compression-core v0.4.34
+   Compiling compression-codecs v0.4.46
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand v0.10.3
+   Compiling rand_core v0.9.5
+   Compiling parking_lot v0.12.5
+   Compiling webrtc-sys-build v0.3.21
+   Compiling from_variants_impl v1.0.2
+   Compiling cxx-build v1.0.205
+   Compiling tokio-stream v0.1.19
+   Compiling sha1 v0.11.0
+   Compiling glob v0.3.4
+   Compiling foldhash v0.2.0
+   Compiling mime v0.3.17
+   Compiling data-encoding v2.11.1
+   Compiling unicase v2.10.0
+   Compiling mime_guess v2.0.5
+   Compiling tungstenite v0.30.0
+   Compiling from_variants v1.0.2
+   Compiling livekit-common v0.2.0
+   Compiling rand_chacha v0.9.0
+   Compiling async-compression v0.4.51
+   Compiling same-file v1.0.6
+   Compiling cxxbridge-macro v1.0.205
+   Compiling vcpkg v0.2.15
+   Compiling libsqlite3-sys v0.40.0
+   Compiling tree-sitter v0.27.2
+   Compiling sha2 v0.11.1
+   Compiling walkdir v2.5.0
+   Compiling tokio-tungstenite v0.30.0 (D:\a\codetrial\codetrial\vendor\tokio-tungstenite)
+   Compiling globset v0.4.20
+   Compiling uuid v1.28.0
+   Compiling bmrng v0.5.2
+   Compiling async-trait v0.1.92
+   Compiling webrtc-sys v0.3.55
+   Compiling base64 v0.21.7
+   Compiling thiserror v1.0.69
+   Compiling livekit-data-stream v0.3.0
+   Compiling rust-embed-utils v8.14.0
+   Compiling livekit-net v0.2.0 (D:\a\codetrial\codetrial\vendor\livekit-net)
+   Compiling rand v0.9.5
+   Compiling device-info v0.1.1
+   Compiling os_info v3.15.0
+   Compiling livekit-region v0.1.1
+   Compiling thiserror-impl v1.0.69
+   Compiling tree-sitter-python v0.25.0
+   Compiling tree-sitter-c v0.24.2
+   Compiling tree-sitter-java v0.23.5
+   Compiling tree-sitter-cpp v0.23.4
+   Compiling tree-sitter-javascript v0.25.0
+   Compiling lazy_static v1.5.1
+   Compiling rtrb v0.3.5
+   Compiling livekit v0.12.0
+   Compiling livekit-signaling v0.3.0
+   Compiling livekit-datatrack v0.3.0
+   Compiling rust-embed-impl v8.14.0
+   Compiling livekit-rpc v0.4.0
+   Compiling axum-core v0.5.6
+   Compiling rustls-platform-verifier v0.7.1
+   Compiling serde_path_to_error v0.1.20
+   Compiling libloading v0.8.9
+   Compiling bitflags v1.3.2
+   Compiling fallible-streaming-iterator v0.1.9
+   Compiling matchit v0.8.4
+   Compiling codetrial v0.1.0 (D:\a\codetrial\codetrial)
+   Compiling fallible-iterator v0.3.0
+   Compiling streaming-iterator v0.1.9
+   Compiling axum v0.8.9
+   Compiling rusqlite v0.43.0
+   Compiling windows-permissions v0.2.4
+   Compiling reqwest v0.13.5
+   Compiling rust-embed v8.14.0
+   Compiling tower-http v0.7.1
+   Compiling ephyra v0.0.1
+   Compiling jpeg-encoder v0.7.1
+   Compiling ephyra-macros v0.0.1
+   Compiling hmac v0.13.0
+   Compiling libwebrtc v0.4.2
+error[E0433]: cannot find `unix` in `os`
+   --> src\tasks\..\..\tests\unit\tasks\defense.rs:328:14
+    |
+328 |     std::os::unix::fs::PermissionsExt::set_mode(&mut permissions, 0o755);
+    |              ^^^^ could not find `unix` in `os`
+    |
+note: found an item that was configured out
+   --> /rustc/0ef1bc386059596dada8fb65b50425aab2ea637a/library/std\src\os\mod.rs:49:4
+    |
+    = note: the item is gated behind the `unix` feature
+
+error[E0433]: cannot find `unix` in `os`
+   --> src\web\..\..\tests\unit\web\defense.rs:225:14
+    |
+225 |     std::os::unix::fs::PermissionsExt::set_mode(&mut permissions, 0o755);
+    |              ^^^^ could not find `unix` in `os`
+    |
+note: found an item that was configured out
+   --> /rustc/0ef1bc386059596dada8fb65b50425aab2ea637a/library/std\src\os\mod.rs:49:4
+    |
+    = note: the item is gated behind the `unix` feature
+
+warning: unused imports: `ReportAttemptFailure`, `ReportAttemptObserver`, and `report_attempt_failure`
+  --> src\gemini.rs:81:9
+   |
+81 |         ReportAttemptFailure, ReportAttemptObserver, ReportAttempts, ReportCalls, ReportOutcome,
+   |         ^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^
+...
+84 |         is_retryable, parse_report_text, repair_prompt, report_attempt_failure, report_attempts,
+   |                                                         ^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `super::tests::executable`
+ --> src\tasks\..\..\tests\unit\tasks\defense_runner.rs:6:5
+  |
+6 | use super::tests::executable;
+  |     ^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `HAZARD` and `executable`
+ --> src\tasks\..\..\tests\unit\tasks\defense_attempt.rs:8:20
+  |
+8 | use super::tests::{HAZARD, Repo, config, executable, fake_make, student_repo, trace as obs_trace};
+  |                    ^^^^^^                ^^^^^^^^^^
+
+warning: unused imports: `Value` and `json`
+ --> src\tasks\..\..\tests\unit\tasks\defense_hints.rs:4:18
+  |
+4 | use serde_json::{Value, json};
+  |                  ^^^^^  ^^^^
+
+warning: unused imports: `config` and `student_repo`
+ --> src\tasks\..\..\tests\unit\tasks\defense_hints.rs:6:20
+  |
+6 | use super::tests::{config, student_repo};
+  |                    ^^^^^^  ^^^^^^^^^^^^
+
+warning: unused import: `super::*`
+ --> src\tasks\..\..\tests\unit\tasks\defense_hints.rs:7:5
+  |
+7 | use super::*;
+  |     ^^^^^^^^
+
+warning: unused imports: `Attempt`, `Checkout`, `Config`, `Tools`, and `plan`
+  --> src\web\..\..\tests\unit\web\defense.rs:16:29
+   |
+16 | use crate::tasks::defense::{Attempt, Checkout, Config, Slot, TASK_ID, Tools, plan};
+   |                             ^^^^^^^  ^^^^^^^^  ^^^^^^                 ^^^^^  ^^^^
+
+warning: variable does not need to be mutable
+  --> src\..\tests\unit\dispatch_http.rs:82:9
+   |
+82 |     let mut directory = std::fs::DirBuilder::new();
+   |         ----^^^^^^^^^
+   |         |
+   |         help: remove this `mut`
+   |
+   = note: `#[warn(unused_mut)]` (part of `#[warn(unused)]`) on by default
+
+For more information about this error, try `rustc --explain E0433`.
+warning: `codetrial` (lib test) generated 8 warnings
+error: could not compile `codetrial` (lib test) due to 2 previous errors; 8 warnings emitted
+warning: build failed, waiting for other jobs to finish...

@@ -1,0 +1,5 @@
+info: syncing channel updates for 1.100.0-x86_64-pc-windows-msvc
+info: latest update on 2026-11-12 for version 1.100.0 (0ef1bc386 2026-11-09)
+info: downloading 5 components
+info: the active toolchain `1.100.0-x86_64-pc-windows-msvc` has been installed
+info: it's active because: overridden by 'D:\a\codetrial\codetrial\rust-toolchain.toml'

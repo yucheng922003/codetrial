@@ -1,0 +1,4 @@
+test-no-run exit=101 start=2026-11-26T19:15:55Z end=2026-11-26T19:27:56Z cmd=cargo test --locked --workspace --no-run
+clippy exit=101 start=2026-11-26T19:27:56Z end=2026-11-26T19:33:06Z cmd=cargo clippy --locked --workspace --all-targets -- -D warnings
+desktop-clippy exit=101 start=2026-11-26T19:33:06Z end=2026-11-26T19:35:04Z cmd=cargo clippy --locked --workspace --all-targets --manifest-path desktop/Cargo.toml -- -D warnings
+toolchain_step=success vendor_step=success
