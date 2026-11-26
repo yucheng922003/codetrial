@@ -1,0 +1,125 @@
+# Experiment only: reproduce the Windows Rust test-target compilation and
+# lint failures of sysprog21/codetrial on a clean GitHub-hosted runner, at a
+# pinned upstream commit with the toolchain rust-toolchain.toml pins. It does
+# not build or test anything of this branch. Results are committed back to
+# this branch under results/<run id>/ and uploaded as an artifact.
+name: windows-test-target-repro
+
+on:
+  push:
+    branches: [windows-test-target-repro]
+    paths: ['.github/workflows/windows-test-target-repro.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: windows-test-target-repro
+  cancel-in-progress: false
+
+env:
+  UPSTREAM_SHA: 9817ef6aa6458dbf6ec9fd3818940a0c16c19898
+  CARGO_TERM_COLOR: never
+
+jobs:
+  repro:
+    runs-on: windows-2025
+    timeout-minutes: 120
+    steps:
+      - name: Check out upstream at the pinned commit
+        uses: actions/checkout@v7
+        with:
+          repository: sysprog21/codetrial
+          ref: ${{ env.UPSTREAM_SHA }}
+          persist-credentials: false
+
+      - name: Check out this branch for the results
+        uses: actions/checkout@v7
+        with:
+          path: _results
+
+      - name: Install the pinned toolchain
+        id: toolchain
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          mkdir -p _out
+          rustup toolchain install > _out/toolchain-install.log 2>&1
+          rc=$?
+          cat _out/toolchain-install.log
+          exit $rc
+
+      - name: Record the runner environment
+        if: always()
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force _out | Out-Null
+          $acp = (Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePage).ACP
+          $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+          & {
+            "date_utc=$((Get-Date).ToUniversalTime().ToString('o'))"
+            "upstream_sha=$env:UPSTREAM_SHA"
+            "checked_out=$(git rev-parse HEAD)"
+            "run=$env:GITHUB_RUN_ID attempt=$env:GITHUB_RUN_ATTEMPT"
+            "ImageOS=$env:ImageOS ImageVersion=$env:ImageVersion RUNNER_OS=$env:RUNNER_OS RUNNER_ARCH=$env:RUNNER_ARCH"
+            "os=$([System.Environment]::OSVersion.VersionString)"
+            "culture=$((Get-Culture).Name) uiculture=$((Get-UICulture).Name) acp=$acp"
+            "RUSTFLAGS=[$env:RUSTFLAGS] CARGO_TARGET_DIR=[$env:CARGO_TARGET_DIR] CARGO_HOME=[$env:CARGO_HOME]"
+            '--- rustc -Vv'; rustc -Vv
+            '--- cargo -V'; cargo -V
+            '--- cargo clippy -V'; cargo clippy -V
+            '--- rustup show'; rustup show
+            '--- git --version'; git --version
+            '--- MSVC (vswhere)'; & $vswhere -latest -property catalog_productDisplayVersion; & $vswhere -latest -property installationVersion
+            '--- sh on PATH'; (Get-Command sh -ErrorAction SilentlyContinue).Source
+          } *>&1 | Out-File -Encoding utf8 _out/environment.txt
+          Get-Content _out/environment.txt
+
+      - name: Prepare browser assets
+        id: vendor
+        continue-on-error: true
+        uses: ./.github/actions/prepare-vendor
+
+      - name: Reproduce the three Cargo commands
+        if: always()
+        shell: bash
+        run: |
+          set +e
+          step() {
+            name=$1; shift
+            start=$(date -u +%FT%TZ)
+            "$@" > "_out/$name.log" 2>&1
+            rc=$?
+            echo "$name exit=$rc start=$start end=$(date -u +%FT%TZ) cmd=$*" >> _out/exits.txt
+          }
+          step test-no-run cargo test --locked --workspace --no-run
+          step clippy cargo clippy --locked --workspace --all-targets -- -D warnings
+          step desktop-clippy cargo clippy --locked --workspace --all-targets --manifest-path desktop/Cargo.toml -- -D warnings
+          echo "toolchain_step=${{ steps.toolchain.outcome }} vendor_step=${{ steps.vendor.outcome }}" >> _out/exits.txt
+          cat _out/exits.txt
+          for f in test-no-run clippy desktop-clippy; do
+            echo "=== $f diagnostics"
+            grep -E '^(error|warning)(\[E[0-9]+\])?:|^\s+--> ' "_out/$f.log" | head -80
+          done
+
+      - name: Commit the results to this branch
+        if: always()
+        shell: bash
+        run: |
+          dest="_results/results/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          mkdir -p "$dest"
+          cp _out/* "$dest/"
+          cd _results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results
+          git commit -m "Record Windows repro run ${GITHUB_RUN_ID}"
+          git push
+
+      - name: Upload the results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: windows-test-target-repro-${{ github.run_id }}
+          path: _out/
