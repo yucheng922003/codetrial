@@ -1,3 +1,4 @@
+#[cfg(unix)]
 use std::path::Path;
 
 use serde_json::{Value, json};
@@ -283,6 +284,7 @@ fn an_sbt_run_says_which_specs_failed_or_that_none_ran() {
 /// Stand-ins for the course's tools: an `sbt` that fails HazardSpec when the
 /// stall line no longer reads `&&`, and a `make` that builds a `Vsim` whose
 /// bug model retires a different third instruction.
+#[cfg(unix)]
 fn fake_tools(dir: &Path) -> Tools {
     let sbt = dir.join("sbt");
     std::fs::write(
@@ -311,6 +313,7 @@ open(a["obs-trace"], "wb").write(json.dumps(head).encode() + b"\n" + body + trai
 }
 
 /// A `make` that writes `vsim` as `build/t4-forward[-<mutant>]/Vsim`.
+#[cfg(unix)]
 pub(super) fn fake_make(dir: &Path, vsim: &str) -> String {
     let make = dir.join("make");
     std::fs::write(
@@ -324,11 +327,8 @@ pub(super) fn fake_make(dir: &Path, vsim: &str) -> String {
     make.display().to_string()
 }
 
-pub(super) fn executable(tool: &Path) {
-    let mut permissions = std::fs::metadata(tool).unwrap().permissions();
-    std::os::unix::fs::PermissionsExt::set_mode(&mut permissions, 0o755);
-    std::fs::set_permissions(tool, permissions).unwrap();
-}
+#[cfg(unix)]
+pub(super) use crate::tasks::test_support::executable;
 
 #[cfg(unix)]
 #[test]

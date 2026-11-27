@@ -3,6 +3,7 @@
 
 use std::time::Duration;
 
+#[cfg(unix)]
 use super::tests::executable;
 use super::*;
 
@@ -24,6 +25,7 @@ fn a_run_past_its_limit_loses_its_whole_process_group() {
     assert!(!marker.exists(), "the background child was killed too");
 }
 
+#[cfg(unix)]
 #[test]
 fn a_run_keeps_only_the_tail_of_its_output() {
     let ran = run(

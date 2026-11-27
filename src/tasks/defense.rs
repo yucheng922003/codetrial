@@ -685,6 +685,7 @@ mod change_tests;
 mod attempt_tests;
 
 #[cfg(test)]
+#[cfg(unix)]
 #[path = "../../tests/unit/tasks/defense/hints.rs"]
 mod hint_tests;
 

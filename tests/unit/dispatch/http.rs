@@ -79,7 +79,7 @@ async fn isolated(name: &str) -> bool {
         std::process::id(),
         SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_nanos()
     )));
-    let mut directory = std::fs::DirBuilder::new();
+    let directory = &mut std::fs::DirBuilder::new();
     #[cfg(unix)]
     {
         use std::os::unix::fs::DirBuilderExt;

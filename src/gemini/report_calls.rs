@@ -128,13 +128,14 @@ pub(super) trait ReportAttemptObserver: Send {
 }
 
 /// Where a report attempt failed, and the HTTP status when the provider
-/// answered with one. Only the evaluation observer, a test, reads the fields.
+/// answered with one. Only the evaluation observer, a Unix-only test, reads the
+/// fields.
 #[derive(Clone, Copy, Debug)]
 #[cfg_attr(
-    not(test),
+    any(not(test), not(unix)),
     expect(
         dead_code,
-        reason = "only the evaluation observer, a test, reads the fields"
+        reason = "only the evaluation observer, a Unix-only test, reads the fields"
     )
 )]
 pub(super) struct ReportAttemptFailure {
